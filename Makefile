@@ -7,7 +7,7 @@
 ant: ant.o
 	gcc -lGL -lGLU -lglut -o ant ant.o
 clean: 
-	rm -f ant.o
+	rm -f ant.o ant
 
 
 # end
