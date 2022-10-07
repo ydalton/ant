@@ -120,7 +120,7 @@ void display(void) {
 int main(int argc, char *argv[]) {
     Ant a = {(MAP_X-1)/2, (MAP_Y-1)/2, 1}; /* Creates the ant. */
     pAnt = &a;
-    genMap(25); /* Uncomment this line to generate pseudorandom map for the ant. */
+    //genMap(25); /* Uncomment this line to generate pseudorandom map for the ant. */
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(W_WIDTH, W_HEIGHT);
